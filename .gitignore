@@ -1,0 +1,18 @@
+# 排除 Python 虚拟环境
+.venv/
+venv/
+env/
+
+# 排除 Python 编译缓存
+__pycache__/
+*.pyc
+
+# 排除大型模型权重或序列化文件 (可选，如果不希望提交 pkl)
+*.pkl
+
+# 排除生成的日志和图片 (可选)
+attack_log.csv
+asr_comparison.png
+
+# 排除 VS Code 配置
+.vscode/
